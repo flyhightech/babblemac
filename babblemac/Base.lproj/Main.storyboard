@@ -701,22 +701,27 @@
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--View Controller-->
+        <!--ToolbarVC-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="babblemac" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="XfG-lQ-9wD" customClass="ToolbarVC" customModule="babblemac" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <containerView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CXh-5g-zAi">
-                                <rect key="frame" x="0.0" y="0.0" width="480" height="235"/>
-                                <autoresizingMask key="autoresizingMask"/>
+                            <containerView translatesAutoresizingMaskIntoConstraints="NO" id="CXh-5g-zAi">
+                                <rect key="frame" x="0.0" y="0.0" width="480" height="220"/>
                                 <connections>
                                     <segue destination="MaG-qD-NqH" kind="embed" id="KFc-eE-enA"/>
                                 </connections>
                             </containerView>
                         </subviews>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="CXh-5g-zAi" secondAttribute="bottom" id="99S-iS-3z7"/>
+                            <constraint firstItem="CXh-5g-zAi" firstAttribute="top" secondItem="m2S-Jp-Qdl" secondAttribute="top" constant="50" id="P5a-T7-W6s"/>
+                            <constraint firstItem="CXh-5g-zAi" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" id="h8M-uY-tRN"/>
+                            <constraint firstAttribute="trailing" secondItem="CXh-5g-zAi" secondAttribute="trailing" id="uss-6x-Sev"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <customObject id="rPt-NT-nkU" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
@@ -748,23 +753,23 @@
             </objects>
             <point key="canvasLocation" x="77" y="1054"/>
         </scene>
-        <!--View Controller-->
+        <!--ChannelVC-->
         <scene sceneID="oSC-AF-drB">
             <objects>
-                <viewController id="NTS-IP-Y1r" sceneMemberID="viewController">
+                <viewController id="NTS-IP-Y1r" customClass="ChannelVC" customModule="babblemac" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="CFT-9H-ZLq">
-                        <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </view>
                 </viewController>
                 <customObject id="IS3-f7-Buc" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="747" y="868"/>
+            <point key="canvasLocation" x="622" y="868"/>
         </scene>
-        <!--View Controller-->
+        <!--ChatVC-->
         <scene sceneID="wvX-lb-T16">
             <objects>
-                <viewController id="VqA-wx-1U6" sceneMemberID="viewController">
+                <viewController id="VqA-wx-1U6" customClass="ChatVC" customModule="babblemac" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="gQv-uc-g9F">
                         <rect key="frame" x="0.0" y="0.0" width="450" height="300"/>
                         <autoresizingMask key="autoresizingMask"/>
