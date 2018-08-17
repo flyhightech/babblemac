@@ -11,7 +11,7 @@ import Cocoa
 
 //  Colors
 
-let chatPurple = NSColor(calibratedRed: 0.30, green: 0.22, blue: 0.29, alpha: 1.00)
-let chatGreen = NSColor(calibratedRed: 0.22, green: 0.66, blue: 0.68, alpha: 1.00)
+let chatPurple = NSColor(calibratedRed: 1.00, green: 0.20, blue: 0.10, alpha: 1.00)
+let chatGreen = NSColor(calibratedRed: 0.20, green: 0.30, blue: 0.80, alpha: 1.00)
 
 
