@@ -13,6 +13,8 @@
 		A1B62E372126762C00974337 /* ToolbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B62E362126762C00974337 /* ToolbarVC.swift */; };
 		A1B62E392126766C00974337 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B62E382126766C00974337 /* ChannelVC.swift */; };
 		A1B62E3C2126768900974337 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B62E3A2126768900974337 /* ChatVC.swift */; };
+		A1B62E3F212679A400974337 /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B62E3E212679A400974337 /* MainWindowController.swift */; };
+		A1B62E4221267C5400974337 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B62E4121267C5400974337 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		A1B62E362126762C00974337 /* ToolbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolbarVC.swift; sourceTree = "<group>"; };
 		A1B62E382126766C00974337 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		A1B62E3A2126768900974337 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		A1B62E3E212679A400974337 /* MainWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		A1B62E4121267C5400974337 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 		A1B62E2221265DEC00974337 /* babblemac */ = {
 			isa = PBXGroup;
 			children = (
+				A1B62E4021267C3500974337 /* Utilities */,
 				A1B62E35212675D000974337 /* View */,
 				A1B62E34212675C400974337 /* Model */,
 				A1B62E33212675B900974337 /* Controller */,
@@ -75,6 +80,7 @@
 				A1B62E362126762C00974337 /* ToolbarVC.swift */,
 				A1B62E382126766C00974337 /* ChannelVC.swift */,
 				A1B62E3A2126768900974337 /* ChatVC.swift */,
+				A1B62E3E212679A400974337 /* MainWindowController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -91,6 +97,14 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		A1B62E4021267C3500974337 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A1B62E4121267C5400974337 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +181,8 @@
 				A1B62E372126762C00974337 /* ToolbarVC.swift in Sources */,
 				A1B62E392126766C00974337 /* ChannelVC.swift in Sources */,
 				A1B62E2421265DEC00974337 /* AppDelegate.swift in Sources */,
+				A1B62E3F212679A400974337 /* MainWindowController.swift in Sources */,
+				A1B62E4221267C5400974337 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
