@@ -13,7 +13,7 @@ class ChatVC: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.wantsLayer = true
-        view.layer?.backgroundColor = CGColor.black
+        view.layer?.backgroundColor = CGColor.white
     }
     
 }
