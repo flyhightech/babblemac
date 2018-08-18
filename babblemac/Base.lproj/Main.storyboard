@@ -886,6 +886,7 @@
                             </textField>
                         </subviews>
                         <constraints>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="jjP-IY-PE3" secondAttribute="trailing" constant="20" symbolic="YES" id="5k0-W7-vSB"/>
                             <constraint firstItem="jjP-IY-PE3" firstAttribute="top" secondItem="ueB-qU-4yI" secondAttribute="bottom" constant="7" id="6qZ-hY-z7n"/>
                             <constraint firstItem="a6S-mp-d6X" firstAttribute="centerX" secondItem="CFT-9H-ZLq" secondAttribute="centerX" id="ADo-N2-hI0"/>
                             <constraint firstAttribute="trailing" secondItem="Pbm-zl-Gqp" secondAttribute="trailing" id="Cfe-3S-7sm"/>
@@ -898,6 +899,7 @@
                             <constraint firstItem="jjP-IY-PE3" firstAttribute="leading" secondItem="CFT-9H-ZLq" secondAttribute="leading" constant="10" id="fWT-4c-h5Q"/>
                             <constraint firstItem="a6S-mp-d6X" firstAttribute="top" secondItem="CFT-9H-ZLq" secondAttribute="top" constant="8" id="hAO-x9-JvP"/>
                             <constraint firstAttribute="trailing" secondItem="dY2-9L-HJN" secondAttribute="trailing" constant="10" id="nRy-uC-ynA"/>
+                            <constraint firstItem="dY2-9L-HJN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="CFT-9H-ZLq" secondAttribute="leading" constant="20" symbolic="YES" id="r1A-Bm-7Vd"/>
                             <constraint firstItem="ueB-qU-4yI" firstAttribute="top" secondItem="a6S-mp-d6X" secondAttribute="bottom" constant="8" id="v3W-hh-ub7"/>
                         </constraints>
                     </view>
